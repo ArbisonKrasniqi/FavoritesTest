@@ -6,6 +6,7 @@ function updateArray() {
     currentArray = favorites;
     localStorage.setItem('sharedArray', JSON.stringify(favorites));
 }
+
 function addToFavorite(element) {
     let parent = element.parentElement;
     parent.classList.add('Favorites');

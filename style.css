@@ -6,8 +6,10 @@
     height: 100%;
 }
 
+.favoritesContainer
+
 .song {
-    background-color: cyan;
+    background-color: rgb(162, 0, 255);
     margin: 10px;
     width: 150px;
     height: 150px;
