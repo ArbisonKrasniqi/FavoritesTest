@@ -2,7 +2,7 @@ let favorites;
 localStorage.setItem('sharedArray', JSON.stringify(favorites));
 
 function updateArray() {
-    let currentArray = JSON.parse(lcoalStorage.getItem('favorites')) || [];
+    let currentArray = JSON.parse(localStorage.getItem('favorites')) || [];
     currentArray = favorites;
     localStorage.setItem('sharedArray', JSON.stringify(favorites));
 }
